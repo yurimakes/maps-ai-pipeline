@@ -1,0 +1,9 @@
+{
+  "version": "business-v2",
+  "description": "합성 연락업무와 청구급부 메타데이터",
+  "column_definitions": [
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-name", "concept_id": "customer", "description": "합성 고객의 명칭"},
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-amount", "concept_id": "claim-benefit", "description": "CB는 청구급부를 뜻함"},
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-callback", "concept_id": "callback-reservation", "description": "콜백 예약 여부"}
+  ]
+}

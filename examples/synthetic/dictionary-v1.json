@@ -1,0 +1,22 @@
+{
+  "version": "dictionary-v1",
+  "origin": "synthetic",
+  "words": [
+    {"id": "w-customer", "name": "고객", "aliases": ["CUST"], "concept_id": "customer"},
+    {"id": "w-name", "name": "명", "aliases": ["NM"], "concept_id": "customer"},
+    {"id": "w-balance", "name": "현금잔액", "aliases": ["CB", "AMT"], "concept_id": "cash-balance"},
+    {"id": "w-benefit", "name": "청구급부", "aliases": ["CB", "AMT"], "concept_id": "claim-benefit"},
+    {"id": "w-callback", "name": "콜백예약여부", "aliases": ["CB_RSV_YN"], "concept_id": "callback-reservation"}
+  ],
+  "terms": [
+    {"id": "t-customer-name", "name": "고객명", "aliases": ["CUST_NM"], "concept_id": "customer", "word_ids": ["w-customer", "w-name"], "domain_id": "d-text"},
+    {"id": "t-cash-balance", "name": "현금잔액금액", "aliases": ["CB_AMT"], "concept_id": "cash-balance", "word_ids": ["w-balance"], "domain_id": "d-amount"},
+    {"id": "t-claim-benefit", "name": "청구급부금액", "aliases": ["CB_AMT"], "concept_id": "claim-benefit", "word_ids": ["w-benefit"], "domain_id": "d-amount"},
+    {"id": "t-callback-reservation", "name": "콜백예약여부", "aliases": ["CB_RSV_YN"], "concept_id": "callback-reservation", "word_ids": ["w-callback"], "domain_id": "d-yn"}
+  ],
+  "domains": [
+    {"id": "d-text", "name": "합성문자열", "data_type": "string", "allowed_values": null},
+    {"id": "d-amount", "name": "합성금액", "data_type": "decimal", "allowed_values": null},
+    {"id": "d-yn", "name": "합성여부", "data_type": "string", "allowed_values": ["Y", "N"]}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": "meta-v1",
+  "columns": [
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-name", "name": "CUST_NM", "data_type": "string"},
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-amount", "name": "CB_AMT", "data_type": "decimal"},
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-unknown", "name": "MYSTERY", "data_type": "string"},
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-callback", "name": "CB_RSV_YN", "data_type": "string"}
+  ]
+}

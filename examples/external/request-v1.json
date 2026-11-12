@@ -1,0 +1,5 @@
+{"schema_version":"1.0","customer_id":"synthetic-customer","project_id":"external-baseline","batch_id":"batch-001","request_id":"external-request-001",
+"metadata":{"path":"metadata.json","version":"external-meta-v1"},
+"dictionary":{"path":"in-memory-reference-selection.json","version":"reference-local-v1"},
+"business_definition":{"path":"business-v1.json","version":"external-business-v1"},
+"target":{"provided":false,"confirmed":false,"path":null,"version":null}}

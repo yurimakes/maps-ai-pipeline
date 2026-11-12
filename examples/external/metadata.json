@@ -1,0 +1,6 @@
+{"version":"external-meta-v1","columns":[
+{"system_id":"synthetic-source","table_id":"contact","column_id":"name","name":"CUST_NM","data_type":"string"},
+{"system_id":"synthetic-source","table_id":"contact","column_id":"application","name":"APPL_NO","data_type":"string"},
+{"system_id":"synthetic-source","table_id":"contact","column_id":"unknown","name":"NO_SUCH_SYNTHETIC_COLUMN","data_type":"string"},
+{"system_id":"synthetic-source","table_id":"contact","column_id":"number","name":"CUST_NO","data_type":"string"}
+]}

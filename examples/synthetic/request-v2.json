@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "customer_id": "demo-customer",
+  "project_id": "demo-project",
+  "batch_id": "batch-001",
+  "request_id": "request-002",
+  "metadata": {"path": "metadata-v1.json", "version": "meta-v1"},
+  "dictionary": {"path": "dictionary-v1.json", "version": "dictionary-v1"},
+  "business_definition": {"path": "business-v2.json", "version": "business-v2"},
+  "target": {"provided": true, "confirmed": true, "path": "target-v1.json", "version": "target-v1"}
+}

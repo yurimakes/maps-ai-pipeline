@@ -1,0 +1,9 @@
+{
+  "version": "business-v1",
+  "description": "합성 연락업무와 현금잔액 메타데이터",
+  "column_definitions": [
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-name", "concept_id": "customer", "description": "합성 고객의 명칭"},
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-amount", "concept_id": "cash-balance", "description": "CB는 현금잔액을 뜻함"},
+    {"system_id": "source-a", "table_id": "contact", "column_id": "c-callback", "concept_id": "callback-reservation", "description": "콜백 예약 여부"}
+  ]
+}

@@ -1,0 +1,4 @@
+{"version":"external-business-v1","description":"합성 고객업무의 명시적 이름 비교 규칙","column_definitions":[
+{"system_id":"synthetic-source","table_id":"contact","column_id":"name","concept_id":"customer-name","description":"상점 고객의 이름"},
+{"system_id":"synthetic-source","table_id":"contact","column_id":"application","concept_id":"insurance-application","description":"보험 청약 식별번호"}
+]}

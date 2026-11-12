@@ -1,0 +1,10 @@
+{
+  "version": "target-v1",
+  "tables": [
+    {"table_id": "target-contact", "name": "합성연락대상", "columns": [
+      {"column_id": "customer-name", "name": "고객명", "data_type": "string", "term_id": "t-customer-name"},
+      {"column_id": "cash-amount", "name": "현금잔액금액", "data_type": "decimal", "term_id": "t-cash-balance"},
+      {"column_id": "callback-reservation", "name": "콜백예약여부", "data_type": "string", "term_id": "t-callback-reservation"}
+    ]}
+  ]
+}

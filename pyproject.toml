@@ -9,6 +9,11 @@ description = "Local synthetic dictionary-first recommendation pipeline"
 requires-python = ">=3.11"
 dependencies = []
 
+[project.scripts]
+maps-ai-pipeline = "maps_ai_pipeline.__main__:main"
+maps-ai-reference-check = "maps_ai_pipeline.reference_check:main"
+maps-ai-external-run = "maps_ai_pipeline.external_run:main"
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["maps_ai_pipeline*"]

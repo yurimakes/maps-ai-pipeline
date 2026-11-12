@@ -1,0 +1,4 @@
+{"version":"external-business-v2","description":"합성 출원업무로 수정한 명시적 이름 비교 규칙","column_definitions":[
+{"system_id":"synthetic-source","table_id":"contact","column_id":"name","concept_id":"customer-name","description":"상점 고객의 이름"},
+{"system_id":"synthetic-source","table_id":"contact","column_id":"application","concept_id":"patent-application","description":"특허 등의 출원 식별번호"}
+]}
